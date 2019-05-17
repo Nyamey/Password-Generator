@@ -19,6 +19,7 @@ def verification():
     if len(password) < 8:
         return 
     elif len(password) >20:
+        print("uddsd")
         return
     elif re.search(r'[0-9]',password) is None:
         return 
